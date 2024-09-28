@@ -12,7 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.decomposition import PCA
 
 # Load the dataset
-df = pd.read_csv('drive/MyDrive/dataset.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/ggkurklu/fda_essay/refs/heads/main/data/dataset.csv')
 df.head()
 
 # TASK 1-1
